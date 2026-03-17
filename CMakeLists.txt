@@ -48,6 +48,7 @@ list(APPEND SERVER_LIBS
   UrmExtAPIs
 )
 
+# mark test
 add_executable(urm ${SERVER_EXECUTABLE} ${CMAKE_SOURCE_DIR})
 target_link_libraries(urm PUBLIC ${SERVER_LIBS})
 
